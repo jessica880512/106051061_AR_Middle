@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class GameManager : MonoBehaviour
         trump.Translate(0, joystick.Vertical * move, 0);
 
         astro.transform.position = new Vector3(0,Mathf.Clamp(astro.transform.position.y,0.1f,20f),0);
-      trump.transform.position = new Vector3(0, Mathf.Clamp(trump.transform.position.y, 0.1f, 20f), 0);
+      trump.transform.position = new Vector3(0, 0, 0);
 
     }
     public void Playanimation(string aniName)
@@ -42,4 +43,5 @@ public class GameManager : MonoBehaviour
         aniastro.SetBool(aniName, true);
         anitrump.SetBool(aniName, true);
     }
+
 }
