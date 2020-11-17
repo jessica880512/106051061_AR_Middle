@@ -1,4 +1,4 @@
-#Tue Nov 17 11:57:01 CST 2020
+#Tue Nov 17 12:16:36 CST 2020
 base.0=C\:\\Users\\user\\Documents\\GitHub\\106051061_AR_Middle\\106051061_AR\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex
